@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#121212"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Fancy Header -->
+        <TextView
+            android:text="🎶 HYPERSONIC MIX"
+            android:textSize="28sp"
+            android:textColor="#1DB954"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:shadowColor="#1DB954"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Song Title -->
+        <EditText
+            android:id="@+id/editSongTitle"
+            android:hint="🎵 Song Title"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:background="#222222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Artist Name -->
+        <EditText
+            android:id="@+id/editArtist"
+            android:hint="🎤 Artist Name"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:background="#222222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Rating -->
+        <EditText
+            android:id="@+id/editRating"
+            android:hint="⭐ Rating (1–5)"
+            android:inputType="number"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:background="#222222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Comment -->
+        <EditText
+            android:id="@+id/editComment"
+            android:hint="💬 Comment"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:background="#222222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Add Button -->
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="➕ Add to Playlist"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1DB954"
+            android:textColor="#000000"
+            android:textAllCaps="false" />
+
+        <!-- View Playlist -->
+        <Button
+            android:id="@+id/btnView"
+            android:text="📄 View Playlist"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#333333"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false" />
+
+        <!-- Exit -->
+        <Button
+            android:id="@+id/btnExit"
+            android:text="🚪 Exit"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF3C38"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>

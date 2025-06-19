@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#F9F9F9"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song Title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artist Name"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating: 5"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nice song!"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:layout_marginTop="4dp" />
+</LinearLayout>
